@@ -15,9 +15,9 @@ public:
             }
         }
         a.push_back(count+1);
-        for(auto i:a){
-            cout<<i<<" ";
-        }
+        // for(auto i:a){
+        //     cout<<i<<" ";
+        // }
         for(int i=0;i<a.size()-1;i++){
             if(a[i]%2!=0){
                 if(a[i+1]%2!=0){
