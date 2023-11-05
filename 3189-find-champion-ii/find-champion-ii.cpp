@@ -6,9 +6,9 @@ public:
             int h = edges[i][1];
             a.insert(h);
         }
-        for(auto i:a){
-            cout<<i<<' ';
-        }
+        // for(auto i:a){
+        //     cout<<i<<' ';
+        // }
         if(n - a.size() > 1) return -1;
         int k = 0;
         for(auto i:a){
