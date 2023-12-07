@@ -9,9 +9,10 @@ public:
                 break;
             }
         }
-        for(int i=0;i<=j;i++){
-            s+=num[i];
-        }
-        return s;
+        // for(int i=0;i<=j;i++){
+        //     s+=num[i];
+        // }
+        // return s;
+        return num.substr(0,j+1);
     }
 };
