@@ -21,9 +21,9 @@ class Solution {
             graph[i] = new ArrayList();
             
         for(int i=0; i<prerequisites.length;i++){
-            // degree[prerequisites[i][1]]++;
             graph[prerequisites[i][0]].add(prerequisites[i][1]);
         }
+        
         for(int i=0;i<numCourses;i++){
             if(!visited[i]){
                 boolean cycle = isCycle(graph, i, visited, rec);
