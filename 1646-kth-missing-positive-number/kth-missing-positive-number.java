@@ -1,6 +1,6 @@
 class Solution {
     public int findKthPositive(int[] arr, int k) {
-        ArrayList<Integer> leftout = new ArrayList<Integer>();
+        
         int start = 0;
         int leftouts = 1;
         int kPlace = 1;
